@@ -19,6 +19,8 @@ without any errors
 """
 df.head(10) #view first 10 rows
 
+df.tail(5) #view of last 5 rows
+
 df.shape #shape of the data
 
 df.columns #list of all coulmns 
