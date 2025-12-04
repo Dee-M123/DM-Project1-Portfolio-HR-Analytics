@@ -36,24 +36,43 @@ The project is organized into four main folders:
 Project1/
 
 │
+
 ├── Data/
+
 │   ├── Raw Data/       # Original raw CSV files
+
 │   └── Cleaned Dataset/     # Cleaned CSV files ready for analysis
+
 │
+
 ├── Notebooks/
+
 │   ├── analytics.ipynb
+
 │   ├── data_cleaning.ipynb
+
 │   └── eda.ipynb
+
 │
+
 ├── src/
+
 │   └── eda.py           # Main Python script containing the HREDA class
+
 │
+
 ├── Reports/
+
 │   ├── slides/          # Presentation slides
+
 │   ├── stats_summary/   # Summary statistics and outputs
+
 │   └── images/          # Plots and images
+
 │
+
 └── README.md            # Project documentation
+
 
 How to Run the Project:
 1. Environment Requirements
