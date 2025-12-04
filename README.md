@@ -20,7 +20,7 @@ Training of employees is seen as a necessary aspect of performance enhancement. 
 
 		Hypothesis 1: Employees who attend more trainings have higher average training scores. 
 
-		Hypothesis 2: Employees who met KPIs (> 80%) in the past year will have higher current average training scores. 
+		Hypothesis 2: Employees who met KPIs (> 80%) in the past year attend more trainings. 
 
 Some departments have new hires in them, and since they are not as experienced as other members that have been employed longer, there is a possibility that performance is lowered as a result:
 
