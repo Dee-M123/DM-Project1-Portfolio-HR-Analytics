@@ -33,54 +33,17 @@ Efficiency and execution of goals, can mean needing a large labour force. For de
 # Project Structure
 The project is organized into four main folders: 
 
-Project1/
-
-│
-
-├── Data/
-
-│   ├── Raw Data/       # Original raw CSV files
-
-│   └── Cleaned Dataset/     # Cleaned CSV files ready for analysis
-
-│
-
-├── Notebooks/
-
-│   ├── analytics.ipynb
-
-│   ├── data_cleaning.ipynb
-
-│   └── eda.ipynb
-
-│
-
-├── src/
-
-│   └── eda.py           # Main Python script containing the HREDA class
-
-│
-
-├── Reports/
-
-│   ├── slides/          # Presentation slides
-
-│   ├── stats_summary/   # Summary statistics and outputs
-
-│   └── images/          # Plots and images
-
-│
-
-└── README.md            # Project documentation
+1. Data/ – raw (uncleaned) and processed (cleaned) CSV files.
+2. Notebooks/ – notebooks for data cleaning, EDA, and analytics (data_cleaning.ipynb, eda.ipynb, analytics.ipynb).
+3. src/ – Python script eda.py with the HREDA class for analysis.
+4. Reports/ – presentation slides, summary statistics, and images.
+5. README.md – project documentation.
 
 
 How to Run the Project:
 1. Environment Requirements
-
 This project was developed using:
-
 Python version: 3.12.12 (Google Colab)
-
 Core Libraries:
 
 		pandas
@@ -100,17 +63,13 @@ Core Libraries:
 These libraries are pre-installed in Google Colab, but if running locally, they must be installed manually.
 
 2. Installing Dependencies
-
 If running locally:
 
 		pip install -r requirements.txt
-
 3. Importing the EDA Class in Google Colab
-
 To load the custom HREDA class directly from GitHub, run:
 
 		!wget -O eda.py https://raw.githubusercontent.com/Dee-M123/DM-Project1-Portfolio-HR-Analytics/refs/heads/main/src/eda.py
-
 
 Reload and import:
 
@@ -118,13 +77,11 @@ Reload and import:
 		reload(__import__("eda"))
 		from eda import HREDA
 
-
 Initialize the EDA object:
 
 		eda = HREDA(df)
 
 4. Running the Main Analysis
-
 Simply open and run the notebooks in the notebooks/
  
 
