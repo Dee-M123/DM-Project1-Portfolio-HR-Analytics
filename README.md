@@ -72,7 +72,7 @@ Initialize the EDA object:
 		eda.numeric_distribution_stats("avg_training_score")
 
 4. Running the Main Analysis
-Simply open and run the notebooks in the notebooks/
+		Simply open and run the notebooks in the notebooks/Eda, data cleaning, and analytics
  
 
 # Results 
