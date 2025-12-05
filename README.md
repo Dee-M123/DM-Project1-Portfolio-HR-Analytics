@@ -84,7 +84,7 @@ H3: There is no significant difference between the tenured employees and new hir
 
 H4: There is a weak but positive indication that the larger the department, the higher the number of trainings. Meeting One’s KPIs is not really influenced by department size. However, the number of awards is influenced by department size.
 
-# Key Insights
+# Key Insights and Conclusion 
 
 Quantity of training alone is not a reliable performance booster. Training programs may need personalisation, focusing on employees’ skill gaps rather than applying a “one-size-fits-all” approach. A proactive development approach might need to be assigned to employees that are underperforming, as opposed to throwing them into another training programme .
 
